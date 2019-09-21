@@ -1,0 +1,106 @@
+webpackHotUpdate("static/development/pages/post.js",{
+
+/***/ "./pages/post/index.tsx":
+/*!******************************!*\
+  !*** ./pages/post/index.tsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/layout */ "./components/layout.tsx");
+/* harmony import */ var _components_banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/banner */ "./components/banner.tsx");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _styles_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/layout */ "./styles/layout.ts");
+var _jsxFileName = "/workspace/justkode_kr/JustKode-Blog/frontend/pages/post/index.tsx";
+
+
+
+
+
+
+var MainContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__MainContainer",
+  componentId: "femxfe-0"
+})(["text-align:center;"]);
+var SubContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__SubContainer",
+  componentId: "femxfe-1"
+})(["display:inline-block;width:100%;max-width:", ";margin:20px 0;"], _styles_layout__WEBPACK_IMPORTED_MODULE_5__["tabletMaxRowSize"]);
+var HelloContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__HelloContainer",
+  componentId: "femxfe-2"
+})(["text-align:center;"]);
+var HelloSubContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__HelloSubContainer",
+  componentId: "femxfe-3"
+})(["display:inline-block;width:100%;max-width:", ";margin:20px 0;"], _styles_layout__WEBPACK_IMPORTED_MODULE_5__["tabletMaxRowSize"]);
+var HelloTitle = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__HelloTitle",
+  componentId: "femxfe-4"
+})(["span{font-size:2rem;border-bottom:0.4rem solid black;font-weight:bold;}margin:1rem;"]);
+var HelloContent = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
+  displayName: "post__HelloContent",
+  componentId: "femxfe-5"
+})(["margin:auto;padding:0.3rem;max-width:720px;width:100%;"]);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "I'm JustKode!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "description",
+    content: "Hello! I'm JustKode!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:title",
+    content: "Hello! JustKode!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:description",
+    content: "Hello! I'm JustKode!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }));
+});
+
+/***/ })
+
+})
+//# sourceMappingURL=post.js.86babcfaa4a5f9919762.hot-update.js.map
