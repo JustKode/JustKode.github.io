@@ -14254,11 +14254,11 @@ var HelloTitle = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.
 var HelloContent = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   displayName: "pages__HelloContent",
   componentId: "lrbmwi-3"
-})(["margin:auto;padding:0.3rem;max-width:720px;width:100%;"]);
+})(["margin:auto;max-width:720px;width:100%;"]);
 var LinkContainer = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   displayName: "pages__LinkContainer",
   componentId: "lrbmwi-4"
-})(["height:300px;display:block;@media (max-width:", "){height:200px;i{display:inline-block;font-size:3rem;padding:50px 0;margin:1rem;color:white;}}i{display:inline-block;font-size:5rem;padding:70px 0;margin:1rem;color:white;}"], _styles_layout__WEBPACK_IMPORTED_MODULE_11__["phoneMaxRowSize"]);
+})(["height:300px;display:block;@media (min-width:", "){i{display:inline-block;font-size:4.8rem;padding:70px 0;margin:1rem;color:white;}}@media (max-width:", "){height:200px;i{display:inline-block;font-size:2.5rem;padding:50px 0;margin:1rem;color:white;}}"], _styles_layout__WEBPACK_IMPORTED_MODULE_11__["phoneMaxRowSize"], _styles_layout__WEBPACK_IMPORTED_MODULE_11__["phoneMaxRowSize"]);
 var MilitaryContainer = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   displayName: "pages__MilitaryContainer",
   componentId: "lrbmwi-5"
@@ -14283,7 +14283,7 @@ function (_Component) {
           statusCode: this.props.error,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72
+            lineNumber: 75
           },
           __self: this
         });
@@ -14292,19 +14292,19 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 79
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 81
         },
         __self: this
       }, "Hello! JustKode!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -14312,7 +14312,7 @@ function (_Component) {
         content: "Hello! I'm JustKode!",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 82
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -14320,7 +14320,7 @@ function (_Component) {
         content: "Hello! JustKode!",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 83
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -14328,55 +14328,55 @@ function (_Component) {
         content: "Hello! I'm JustKode!",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 84
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_banner__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 86
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 87
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloSubContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 89
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 89
         },
         __self: this
       }, "Hello! I'm JustKode")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContent, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 90
         },
         __self: this
       }, "\uC548\uB155\uD558\uC138\uC694! \uD604\uC7AC \uACBD\uD76C\uB300\uD559\uAD50 \uCEF4\uD4E8\uD130\uACF5\uD559\uACFC 3\uD559\uB144 \uD734\uD559 \uC911\uC778 JustKode, \uBC15\uBBFC\uC7AC\uB77C\uACE0 \uD569\uB2C8\uB2E4."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContent, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 91
         },
         __self: this
       }, "2017.03.01~ \uACBD\uD76C\uB300\uD559\uAD50 \uCEF4\uD4E8\uD130\uACF5\uD559\uACFC \uC7AC\uD559"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContent, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 92
         },
         __self: this
       }, "2019.06.03~2020.12.29 \uC721\uAD70 \uBCF5\uBB34"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContent, {
@@ -14387,7 +14387,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 93
         },
         __self: this
       }, "Just, Kode it."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContainer, {
@@ -14396,37 +14396,37 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloSubContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 97
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 98
         },
         __self: this
       }, "Recent Posts")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(MilitaryContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 99
         },
         __self: this
       }, "\uB294 ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 99
         },
         __self: this
       }, "\uAD73\uAC74\uC774"), "\uAC00 \uCC98\uB9AC \uD588\uC73C\uB2C8 \uC548\uC2EC\uD558\uB77C\uAD6C!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -14434,19 +14434,19 @@ function (_Component) {
         width: "150px",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 100
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 101
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 101
         },
         __self: this
       }, "\uC804\uC5ED"), " \uD558\uBA74 \uB9CC\uB098\uC694!"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContainer, {
@@ -14456,19 +14456,19 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 104
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloSubContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
@@ -14477,69 +14477,69 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 106
         },
         __self: this
       }, "Link")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(LinkContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "/info",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 108
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "fas fa-user-alt",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 108
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://github.com/JustKode",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 109
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "fab fa-github",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 109
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://www.instagram.com/0ccean/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "fab fa-instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 110
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://www.facebook.com/profile.php?id=100014409812788",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 111
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "fab fa-facebook-square",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 111
         },
         __self: this
       }))))));
