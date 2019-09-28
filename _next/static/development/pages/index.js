@@ -14382,7 +14382,7 @@ function (_Component) {
       }, "2019.06.03~2020.12.29 \uC721\uAD70 \uBCF5\uBB34"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(HelloContent, {
         style: {
           fontWeight: 'bold',
-          padding: '1.2rem',
+          paddingTop: '1.2rem',
           fontSize: '1.2rem'
         },
         __source: {
