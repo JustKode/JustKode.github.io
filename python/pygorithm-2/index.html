@@ -150,7 +150,7 @@ heapq<span class="token punctuation">.</span>heapify<span class="token punctuati
 <h2>Functions</h2>
 <p><code class="language-text">Python</code> 내부에는 <strong>탐색, 계산, 삽입</strong> 등을 위한 여러 가지 함수들이 있습니다. 알고리즘 문제를 풀 때 필요한 몇 개의 것들만 예시로 보여 드리겠습니다.<br><br></p>
 <h3>bisect</h3>
-<p><code class="language-text">bisect</code> 모듈은 <strong>이미 정렬되어 있는 <code class="language-text">list</code>의 정렬 상대를 유지하기 위해</strong> 사용되는 모듈입니다. 이를 이용해서, 기존에 있는 <code class="language-text">list</code>의 정렬 상태를 유지 할 수 있고, 이를 응용해서 <code class="language-text">Binary Search</code> 또한 구현할 수 있습니다.</p>
+<p><code class="language-text">bisect</code> 모듈은 <strong>이미 정렬되어 있는 <code class="language-text">list</code>의 정렬 상대를 유지하기 위해</strong> 사용되는 모듈입니다. 이를 이용해서, 기존에 있는 <code class="language-text">list</code>의 정렬 상태를 유지 할 수 있고, 이를 응용해서 <code class="language-text">Binary Search</code> 또한 구현할 수 있습니다.<br><br></p>
 <ul>
 <li>삽입 되어야 하는 <code class="language-text">index</code> 찾기</li>
 </ul>
@@ -166,14 +166,12 @@ arr <span class="token operator">=</span> <span class="token punctuation">[</spa
 bisect<span class="token punctuation">.</span>insort_left<span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span>  <span class="token comment"># 중복 되는 값 왼쪽에 삽입</span>
 bisect<span class="token punctuation">.</span>insort_right<span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token comment"># 중복 되는 값 오른쪽에 삽입</span>
 
-<span class="token keyword">print</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
-```<span class="token operator">&lt;</span>br<span class="token operator">></span>
-
-
-<span class="token operator">-</span> `Binary Search` 구현
-
-```python
-<span class="token keyword">from</span> bisect <span class="token keyword">import</span> bisect_left 
+<span class="token keyword">print</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span></code></pre></div>
+<br>
+<ul>
+<li><code class="language-text">Binary Search</code> 구현</li>
+</ul>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> bisect <span class="token keyword">import</span> bisect_left 
 arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
   
 <span class="token keyword">def</span> <span class="token function">bs</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> x<span class="token punctuation">)</span><span class="token punctuation">:</span> 
