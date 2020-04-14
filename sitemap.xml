@@ -6,11 +6,13 @@
 <url> <loc>https://justkode.kr/python/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc/blog-open</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/sql-summary</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/javascript/destructuring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/python/thread</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/info/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -20,6 +22,6 @@
 <url> <loc>https://justkode.kr/python/pygorithm-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/pytorch-cnn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/pytorch-autograd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://justkode.kr/deep-learning/pytorch-basic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/pytorch-nn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/deep-learning/pytorch-basic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
