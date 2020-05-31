@@ -5,6 +5,7 @@
 <url> <loc>https://justkode.kr/post/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/python/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/python/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/etc/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -12,6 +13,7 @@
 <url> <loc>https://justkode.kr/algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/algorithm/python-dijkstra</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/pandas-normalization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/pytorch-save</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/python/try-except</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
