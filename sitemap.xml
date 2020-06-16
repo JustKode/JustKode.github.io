@@ -14,6 +14,7 @@
 <url> <loc>https://justkode.kr/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/algorithm/bitmash</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/machine-learning/linear_model</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/algorithm/python-dijkstra</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/pandas-normalization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
