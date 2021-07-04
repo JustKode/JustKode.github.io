@@ -21,8 +21,10 @@
 <url> <loc>https://justkode.kr/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/data-science/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/cloud-computing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/data-science/just-data-science-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/just-data-science-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/just-cloud-computing-0</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/data-science/just-data-science-0</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
