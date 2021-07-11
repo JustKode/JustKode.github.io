@@ -228,8 +228,8 @@ data-styled.g137[id="postLayout__GoToPostContainer-sc-15sv84-20"]{content:"icwNu
 <div class="gatsby-highlight" data-language="sql"><pre class="language-sql"><code class="language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">DATABASE</span> 데이터베이스명 <span class="token keyword">CHARACTER</span> <span class="token keyword">SET</span><span class="token operator">=</span>문자집합이름<span class="token punctuation">;</span>
 <span class="token keyword">ALTER</span> <span class="token keyword">DATABASE</span> 데이터베이스명 <span class="token keyword">COLLATE</span><span class="token operator">=</span>콜레이션이름<span class="token punctuation">;</span></code></pre></div>
 <br>
-<p><code class="language-text">DB</code> 데이터베이스에 범용적으로 사용하는 <code class="language-text">utf8</code> 문자 집합과 <code class="language-text">utf8_general_ci</code> 콜렉션을 사용해 보겠습니다.
-<strong>Example</strong></p>
+<p><code class="language-text">DB</code> 데이터베이스에 범용적으로 사용하는 <code class="language-text">utf8</code> 문자 집합과 <code class="language-text">utf8_general_ci</code> 콜렉션을 사용해 보겠습니다.</p>
+<p><strong>Example</strong></p>
 <div class="gatsby-highlight" data-language="sql"><pre class="language-sql"><code class="language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">DATABASE</span> DB <span class="token keyword">CHARACTER</span> <span class="token keyword">SET</span><span class="token operator">=</span>uft8 <span class="token keyword">COLLATE</span><span class="token operator">=</span>utf8_general_ci<span class="token punctuation">;</span></code></pre></div>
 <h3>ALTER TABLE</h3>
 <p><code class="language-text">ALTER TABLE</code>을 통해 <code class="language-text">TABLE</code>의 필드들의 <strong>타입, 제약조건 수정</strong> 혹은 <strong>필드 추가 및 삭제</strong> 할 수 있습니다.</p>
@@ -331,7 +331,7 @@ data-styled.g137[id="postLayout__GoToPostContainer-sc-15sv84-20"]{content:"icwNu
 
 <span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> PEOPLE<span class="token punctuation">(</span>ID<span class="token punctuation">,</span> NAME<span class="token punctuation">,</span> AGE<span class="token punctuation">,</span> SCHOOL<span class="token punctuation">)</span>
 <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">"Justkode"</span><span class="token punctuation">,</span> <span class="token number">24</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">"JustPark"</span><span class="token punctuation">,</span> <span class="token number">24</span><span class="token punctuation">,</span> <span class="token boolean">NULL</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
-<p>여기에 있는 <code class="language-text">TEAM</code>과 <code class="language-text">PLAYER</code> 에서, <code class="language-text">PLAYER.TEAM</code>과 <code class="language-text">TEAM.ID</code> 가 일치 하는 행에 대해 조합하여 하나의 테이블 형태로 출력을 하고자 할 때는, <code class="language-text">INNER JOIN</code>을 사용 합니다.</p>
+<p>여기에 있는 <code class="language-text">PEOPLE</code>과 <code class="language-text">SCHOOL</code> 에서, <code class="language-text">PEOPLE.SCHOOL</code>과 <code class="language-text">SCHOOL.ID</code> 가 일치 하는 행에 대해 조합하여 하나의 테이블 형태로 출력을 하고자 할 때는, <code class="language-text">INNER JOIN</code>을 사용 합니다.</p>
 <div class="gatsby-highlight" data-language="sql"><pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span>
 <span class="token keyword">FROM</span> PEOPLE
 <span class="token keyword">INNER</span> <span class="token keyword">JOIN</span> SCHOOL
