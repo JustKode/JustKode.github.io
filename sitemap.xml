@@ -26,6 +26,7 @@
 <url> <loc>https://justkode.kr/etc/10</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/java</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/java/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/deep-learning/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -36,6 +37,7 @@
 <url> <loc>https://justkode.kr/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/cloud-computing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/cloud-computing/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://justkode.kr/java/cpp-to-java-6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/java/cpp-to-java-5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/java/cpp-to-java-4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://justkode.kr/java/cpp-to-java-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
