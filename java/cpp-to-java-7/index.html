@@ -373,8 +373,21 @@ Simple Thread 1 Start</code></pre></div>
 당신이 입력 하신 값은 123입니다.
 당신은 6초 만에 답을 입력 했습니다.</code></pre></div>
 <ul>
-<li><code class="language-text">yield()</code>: 다른 쓰레드에게 실행 시간을 양보 합니다. <strong>실행</strong> 상태에서 <strong>실행 대기</strong> 상태로 전환 합니다.</li>
-<li><code class="language-text">join()</code>: 다른 쓰레드의 작업을 기다립니다. 현재 실행 중인 쓰레드에서, 호출한 쓰레드가 종료 될 때 까지 기다립니다.</li>
+<li><code class="language-text">yield()</code>: 다음 차례의 쓰레드에게 실행 시간을 양보 합니다. <strong>실행</strong> 상태에서 <strong>실행 대기</strong> 상태로 전환 합니다. 이는 <strong>무조건 쓰레드가 양보함을 보장하지 않으며</strong> 스케쥴러가 <strong>참고 하여 스케쥴링에 있어 이를 고려 합니다.</strong> 이렇게 하는 것이, 현재 많은 자원을 요하는 스레드에 더 많은 자원을 제공 할 수 있도록, 스케줄러에게 도움을 줄 수 있기 때문이죠. 자세한 내용은 <a href="https://codingdog.tistory.com/entry/java-yield-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%96%91%EB%B3%B4%ED%95%9C%EB%8B%A4%EB%8A%94-%ED%9E%8C%ED%8A%B8%EB%A5%BC-%EC%A4%80%EB%8B%A4">해당 블로그</a>를 참조 해 주세요.</li>
+</ul>
+<div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token comment">// 중략</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>stopped<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>suspended<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">InterruptedException</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token keyword">yield</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 후략</span></code></pre></div>
+<ul>
+<li><code class="language-text">join()</code>: 다른 쓰레드의 작업을 기다립니다. 현재 실행 중인 쓰레드에서, <code class="language-text">join()</code>을 호출한 쓰레드가 종료 될 때 까지 기다립니다.</li>
 </ul>
 <div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">SleepRunnable</span> <span class="token keyword">implements</span> <span class="token class-name">Runnable</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
@@ -400,8 +413,8 @@ Simple Thread 1 Start</code></pre></div>
         th2<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
         <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            th1<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            th2<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            th1<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// th1 쓰레드가 종료 시 까지 메인 쓰레드는 대기.</span>
+            th2<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// th2 쓰레드가 종료 시 까지 메인 쓰레드는 대기.</span>
         <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">InterruptedException</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
 
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Main 종료"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

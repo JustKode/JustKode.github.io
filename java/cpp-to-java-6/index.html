@@ -345,7 +345,7 @@ false</code></pre></div>
 <li><code class="language-text">String(String s)</code>: 주어진 문자열(s)의 값을 가지는 <code class="language-text">String</code> 인스턴스를 생성 합니다.</li>
 <li><code class="language-text">String(char[] value)</code>: 주어진 문자열(value)의 값을 가지는 <code class="language-text">String</code> 인스턴스를 생성 합니다.</li>
 <li><code class="language-text">char charAt(int index)</code>: 지정된 위치(index)에 있는 문자를 반환 합니다.</li>
-<li><code class="language-text">int compareTo(String str)</code>: 사전순으로 앞서면 <code class="language-text">-1</code>, 같으면 <code class="language-text">0</code>, 뒤쳐지면 <code class="language-text">1</code>을 반환 합니다.</li>
+<li><code class="language-text">int compareTo(String str)</code>: 사전순으로 앞서면 <strong>음수</strong>, 같으면 <code class="language-text">0</code>, 뒤쳐지면 <strong>양수</strong>를 반환 합니다. 반환 하는 숫자는, 제일 먼저 비교 가능한 문자의 <strong>아스키코드상 문자의 차이</strong> (ex: "aaaa", "aabb" 면 3번째 글자인 'b'와 'a'의 차이), 혹은 서로 포함하는 관계일 시 (ex: "aaa", "aaaaa") 문자열 길이의 차이를 반환 합니다.</li>
 <li><code class="language-text">String concat(String str)</code>: <code class="language-text">str</code>를 뒤에 이어서 붙여 준다.</li>
 <li><code class="language-text">boolean contains(CharSequence s)</code>: 지정된 문자열에 <code class="language-text">s</code>가 포함되었는지 여부를 반환 합니다.</li>
 <li><code class="language-text">boolean startsWith(String prefix)</code>: 지정된 문자열이 <code class="language-text">prefix</code>로 시작 하는지 여부를 반환 합니다.</li>
